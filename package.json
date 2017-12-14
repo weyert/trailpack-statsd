@@ -1,0 +1,42 @@
+{
+  "name": "trailpack-statsd",
+  "version": "0.0.1",
+  "description": "Easily send events to a StatsD server",
+  "homepage": "https://github.com/statsd/trailpack-statsd",
+  "author": {
+    "name": "Weyert de Boer"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trailpack",
+    "trails",
+    "trailjs",
+    "statsd"
+  ],
+  "dependencies": {
+    "joi": "^10.1.0",
+    "lodash": "^4.17.4",
+    "uuid": "^3.0.1",
+    "statsd-client": "^0.4.0",
+    "trailpack": "^2.1.0",
+    "trails-service": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-trails": "^2.0.6",
+    "mocha": "^3.0.2",
+    "smokesignals": "^2.1.0",
+    "trails": "^2.0.0"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "git@github.com:weyert/trailpack-statsd.git",
+  "license": "MIT"
+}
