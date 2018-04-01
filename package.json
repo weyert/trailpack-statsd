@@ -1,6 +1,6 @@
 {
   "name": "trailpack-statsd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily send events to a StatsD server",
   "homepage": "https://github.com/statsd/trailpack-statsd",
   "author": {
@@ -14,18 +14,18 @@
     "statsd"
   ],
   "dependencies": {
-    "joi": "^10.1.0",
-    "lodash": "^4.17.4",
-    "uuid": "^3.0.1",
-    "statsd-client": "^0.4.0",
-    "trailpack": "^3"
+    "joi": "^13.1.2",
+    "lodash": "^4.17.5",
+    "uuid": "^3.2.1",
+    "statsd-client": "^0.4.2",
+    "trailpack": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.13.1",
     "eslint-config-trails": "^2.0.6",
     "mocha": "^3.0.2",
     "smokesignals": "^2.1.0",
-    "trails": "^3"
+    "trails": "^3.2.1"
   },
   "scripts": {
     "test": "eslint . && mocha"
